@@ -1,7 +1,12 @@
 # Banana-Leaf-Disease-Detection
 
-This project was developed using tensorflow model to detect the type of disease that has affected the banana leaves. The model was trained on colab with suffient amount of images and saved to make predictions on the user image.
-The saved model is integrated to a web interface using python flask to provide end-user experience.
+This project was developed using tensorflow model to detect the type of disease that has affected the banana leaves. The model detects the following 3 types of banana leaf diseases: Sigatoka, Bacterial wilt and Pestalotiopsis. The model was trained on colab with suffient amount of images and saved to make predictions on the user image. The saved model is integrated to a web interface using python flask to provide end-user experience.
+* Training Platform: Google Colab
+* Data Annotation: LabelImg from python packages
+* Model: Faster RCNN
+* Data Source: Kaggle and Github
+* Front-end: HTML, CSS
+* Back-end: Python flask
 
 ### Project output images:
 #### 1. Landing page.<br><br>
