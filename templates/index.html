@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>GREEN Diagnosis</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+
+<body>
+	<main>
+		<div class="my-div">
+			<section id="home">
+				<h2><span id="h1_span">GREEN</span> Diagnosis</h2>
+				<button id="detect-button">Detect Disease</button>
+				<button id="goBack-button">Go Back</button>
+			</section><br>
+			<section id="detect" class="hidden">
+				<h2>Upload an Image to Detect Disease</h2>
+				<form>
+					<input type="file" name="image" id="image">
+					<button type="submit" id="predict-button">Predict Disease</button><br>
+				</form><br>
+				<div id="loading" class="hidden">
+					<img src="/static/img/loading.gif" alt="Loading...">
+					<h5>Loading...</h5>
+				</div>
+				<div id="result" class="hidden">
+					<h3>Disease Name:</h3>
+					<!-- <img id="result-image"> -->
+					<h1 id="result-text"></h1>
+					<h3>Causes:</h3>
+					<!-- <img id="result-image"> -->
+					<h3 id="causes"></h3>
+					<h3>Prevention:</h3>
+					<!-- <img id="result-image"> -->
+					<h3 id="prevention"></h3>
+				</div>
+			</section>
+		</div>
+	</main>
+	<script src="/static/js/script.js"></script>
+</body>
+
+</html>

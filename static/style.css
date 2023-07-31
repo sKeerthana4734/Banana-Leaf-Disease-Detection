@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url('/static/img/bg5.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+main {
+	padding: 20px;
+}
+
+#home {
+	text-align: center;
+}
+
+#detect {
+	text-align: center;
+}
+
+form {
+	margin-top: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#loading,
+#result {
+	margin-top: 20px;
+}
+
+#loading img {
+	display: block;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+#h1_span {
+	color: #026d2b;
+}
+
+.my-div {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 50px auto;
+	width: 80%;
+	max-width: 600px;
+	box-sizing: border-box;
+	background-clip: content-box;
+}
+
+#result-text,
+#prevention,
+#causes {
+	color: #026d2b
+}
